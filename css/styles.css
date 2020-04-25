@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.8rem;
+  font-family: 'Sacramento', cursives;
+  margin: 50px auto 0;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  width: 6%;
+  border-top: 10px dotted #EAF6F6;
+  margin: 80px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-right: 20px
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+#top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 7%;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 22%;
+  top: 35%;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+}
+
+.image-code {
+  /*if we want for example the paragraph to be beneath the image, we can go to the paragraph and say: clear:left;*/
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.image-voll {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.top-container {
+  background: #E4F9F5;
+  position: relative;
+  padding: 80px 0 0;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  margin-bottom: 0;
+  background: #66BFBF;
+  padding: 40px;
+  padding-bottom: 15px;
+}
+
+.copytight {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 11px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding: 13px 26px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #67c6d6 100%);
+  background-color: #408c99;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
